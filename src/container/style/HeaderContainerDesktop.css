@@ -1,0 +1,11 @@
+.HeaderContainer{
+    
+    inline-size: auto;
+    block-size: 160px;
+
+    display: flex;
+
+    box-sizing: content-box;
+
+    padding: 26px 0px 0px 74px;
+}

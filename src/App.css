@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body{
+  inline-size: 100vw;
+  block-size: 100vh;
+}
+
+#root{
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+:root{
+  
+  --primary-color:#2A2828;
+  --on-primary-color:#FFFFFF;
+
+  --surface-color: #FFFFFF;
+  --on-surface-color: #707070;
+
+  --background-color: #F1F1F1;
+  --on-background-color: #707070;
+
+  --alert-color: #D96464;
+  --on-alert-color:#FFFFFF;
+
+  --secondary-letter-color:#787373;
+
+  
+}
+
+.App{
+  inline-size: 100%;
+  block-size: 100%;
+
+  background-color: var(--background-color);
+
+  overflow: hidden;
+}

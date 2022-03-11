@@ -1,0 +1,167 @@
+.NavBarContainer{
+    inline-size: 100%;
+    block-size: 100%;
+
+    transform: translateY(-500px);
+
+    animation-name: NavBarContainerEntry;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    
+}
+
+.NavBarContainer ul{
+    inline-size: 100%;
+    block-size: 100%;
+
+    display: flex;
+    align-items: flex-end;
+
+    list-style-type: none;
+
+}
+
+.NavBarContainer ul li{
+    inline-size: 92px;
+    block-size: 39px;
+
+    margin-left: 20px;
+
+    border: 3px solid var(--on-background-color);
+    border-radius: 4px;
+    
+    transition: all ease 100ms;
+
+}
+
+.NavBarContainer ul li.Selected{
+    inline-size: 92px;
+    block-size: 39px;
+
+    margin-left: 20px;
+
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+    
+    transition: all ease 100ms;
+
+}
+
+.NavBarContainer ul li:hover{
+    transform: scale(1.1);
+}
+
+.NavBarContainer ul li.Selected:hover{
+    transform: scale(1);
+}
+
+
+.NavBarContainer ul li:nth-of-type(1){
+
+    inline-size: 160px;
+    block-size: 160px;
+
+    margin-left: 0px;
+
+    border: none;
+
+
+    border-radius: 30px;
+    box-shadow: 0px 3px 6px #00000048;
+    background-color: var(--surface-color);
+
+
+}
+
+.NavBarContainer ul li:nth-of-type(1).Selected{
+
+    inline-size: 160px;
+    block-size: 160px;
+
+    margin-left: 0px;
+
+    border: none;
+
+
+    border-radius: 30px;
+    box-shadow: 0px 3px 6px #00000048;
+    background-color: var(--primary-color);
+
+
+}
+
+
+.NavBarContainer ul li a{
+    
+    inline-size: 100%;
+    block-size: 100%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--on-background-color);
+    text-decoration: none;
+
+}
+
+.NavBarContainer ul li.Selected a{
+    
+    inline-size: 100%;
+    block-size: 100%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--on-primary-color);
+    text-decoration: none;
+
+}
+
+.NavBarContainer ul li:nth-of-type(1) a span{
+    display: inline-block;
+    inline-size: 100%;
+    block-size: 100%;
+    
+    background-color: var(--on-surface-color);
+    
+    mask-image: url('./../../assets/Logo.svg');
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: 80%;
+
+}
+
+.NavBarContainer ul li:nth-of-type(1).Selected a span{
+    display: inline-block;
+    inline-size: 100%;
+    block-size: 100%;
+    
+    background-color: var(--on-primary-color);
+    
+    mask-image: url('./../../assets/Logo.svg');
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: 80%;
+
+}
+
+@keyframes NavBarContainerEntry {
+    0%{
+        transform: translateY(-500px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

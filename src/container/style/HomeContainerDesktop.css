@@ -1,0 +1,314 @@
+.HomeContainer{
+    inline-size: 100%;
+    block-size: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 48px 74px 0 74px;
+
+    position: relative;
+
+    
+}
+
+.HomeContainer .LineDecorator{
+    background-color: var(--on-background-color);
+    inline-size: 384px;
+    block-size: 3px;
+
+    position: absolute;
+    top: 24px;
+
+    opacity: 0;
+    animation-name:LineDecoratorEntry;
+    animation-duration: 400ms;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.HomeContainer .MainContentContainer{
+    inline-size: 75%;
+
+    transform: translateX(-1500px);
+    animation-name: MainContentContainerEntry;
+    animation-duration: 600ms;
+    animation-delay: 200ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    
+}
+
+.HomeContainer .MainContentContainer h1{
+
+    margin-bottom: 16px;
+
+
+    font-size: 44px;
+    font-weight: 900;
+    color: var(--primary-color);
+}
+
+.HomeContainer .MainContentContainer .FirstPostContainer{
+
+    inline-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.HomeContainer .MainContentContainer .FirstPostContainer h2{
+
+    margin-bottom: 16px;
+    margin-left: 8px;
+    font-size: 21px;
+    font-weight: 900;
+    color: var(--primary-color);
+}
+
+.HomeContainer .MainContentContainer .FirstPostContainer p{
+    
+    inline-size: 90%;
+
+    margin-left: 40px;
+    padding: 24px 48px 24px 40px;
+
+    
+    background-color: var(--surface-color);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.137);
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #636161;
+}
+
+.HomeContainer .MainContentContainer .SecondPostContainer{
+    inline-size: 100%;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 32px;
+
+    
+}
+
+.HomeContainer .MainContentContainer .SecondPostContainer h2{
+    
+    margin-bottom: 16px;
+    margin-left: 8px;
+    font-size: 21px;
+    font-weight: 900;
+    
+    color: #544D4D;
+
+}
+
+.HomeContainer .MainContentContainer .SecondPostContainer p{
+    inline-size: 90%;
+
+    margin-left: 40px;
+    padding: 16px 0px 24px 32px;
+
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #636161;
+}
+
+.HomeContainer .MainContentContainer .FeaturesContainer{
+    display: flex;
+
+    margin-top: 40px;
+}
+
+.HomeContainer .MainContentContainer .FeaturesContainer .FeatureTest{
+    inline-size: 342px;
+    block-size: 238px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+    margin-left: 32px;
+    
+    border: 2px solid #AAAAAA;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.13);
+    background-color: #F9F9F9;
+
+}
+
+.HomeContainer .MainContentContainer .FeaturesContainer .FeatureTest h3{
+
+    margin-top: 24px;
+    font-size: 21px;
+    font-weight: 900;
+    color: #544D4D;
+    text-align: center;
+}
+
+.HomeContainer .MainContentContainer .FeaturesContainer .FeatureTest a{
+    
+    
+        inline-size: 92px;
+        block-size: 39px;
+    
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+    
+        margin-bottom: 48px;
+
+        border: 3px solid var(--on-background-color);
+        border-radius: 4px;
+
+        font-weight: 700;
+        font-size: 14px;
+        color: var(--on-background-color);
+        text-decoration: none;
+    
+        transition: all ease 100ms;
+
+}
+
+.HomeContainer .MainContentContainer .FeaturesContainer .FeatureDocs{
+
+    inline-size: 342px;
+    block-size: 238px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 40px;
+
+    border: 2px solid #AAAAAA;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.13);
+    background-color: #F9F9F9;
+
+
+}
+
+.HomeContainer .MainContentContainer .FeaturesContainer .FeatureDocs h3{
+
+    margin-top: 24px;
+    font-size: 21px;
+    font-weight: 900;
+    color: #544D4D;
+    text-align: center;
+}
+
+.HomeContainer .MainContentContainer .FeaturesContainer .FeatureDocs a{
+    
+    
+    inline-size: 92px;
+    block-size: 39px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 48px;
+
+    border: 3px solid var(--on-background-color);
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--on-background-color);
+    text-decoration: none;
+
+    transition: all ease 100ms;
+
+}
+
+.HomeContainer .MainContentContainer .FeaturesContainer  a:hover{
+    border: none;
+    background-color: var(--primary-color);
+
+
+    color: var(--on-primary-color);
+
+    transform: scale(1.1);
+}
+
+.ChangelogSection{
+    inline-size: 25%;
+
+    
+
+}
+
+.ChangelogSection .ChangelogContainer{
+    block-size: 83%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-top: 124px;
+    
+    background-color: var(--surface-color);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.144);
+
+
+    transform: translateY(1500px);
+    animation-name: ChangelogContainerEntry;
+    animation-duration: 600ms;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+
+}
+
+.ChangelogSection .ChangelogContainer h2{
+    
+    margin-top: 16px;
+
+    font-size: 25px;
+    color: var(--primary-color);
+}
+
+.ChangelogSection .ChangelogContainer p{
+    inline-size: 80%;
+
+    margin-top: 24px;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #636161;
+}
+
+
+@keyframes MainContentContainerEntry {
+    0%{
+        transform: translateX(-1500px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+
+@keyframes ChangelogContainerEntry {
+    0%{
+        transform: translateY(1500px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+
+@keyframes LineDecoratorEntry {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

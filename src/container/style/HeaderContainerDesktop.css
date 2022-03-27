@@ -7,5 +7,70 @@
 
     box-sizing: content-box;
 
-    padding: 26px 0px 0px 74px;
+    padding: 26px 74px 0px 74px;
+
+    transform: translateY(-500px);
+
+    animation-name: HeaderContainerEntry;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.HeaderContainer .SectionInfo{
+    inline-size: auto;
+    block-size: 88px;
+
+    display: flex;
+
+    align-self: flex-end;
+
+    padding-block-end: 4px;
+
+    border-block-end: 3px solid #707070;
+
+    transform: translateY(-500px);
+
+    animation-name: HeaderContainerEntry;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+
+}
+
+.HeaderContainer .SectionInfo h2{
+    inline-size: 479px;
+
+    align-self: flex-end;
+
+    margin-inline-end: 16px;
+
+    text-align: end;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2A2828;
+}
+
+.HeaderContainer .SectionInfo h2 span{
+    font-weight: 900;
+}
+
+.HeaderContainer .SectionInfo .DecoratedImage{
+    block-size: 78px;
+    inline-size: 78px;
+
+    align-self: flex-end;
+
+    background-image: url('./../../assets/VectorTest.svg');
+
+}
+
+
+@keyframes HeaderContainerEntry {
+    0%{
+        transform: translateY(-500px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }

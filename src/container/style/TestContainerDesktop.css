@@ -1,0 +1,28 @@
+.TestContainer{
+    inline-size: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 48px;
+}
+
+.TestContainer .AuthAndInfo{
+    inline-size: 647px;
+
+    block-size: 718px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.TestContainer .AuthAndInfo .SectionInfo{
+    inline-size: 100%;
+    block-size: 496px;
+   
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 6px #00000021;
+   
+   }

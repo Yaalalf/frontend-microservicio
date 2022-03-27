@@ -1,0 +1,16 @@
+.ButtonOutlined{
+    inline-size: 225px;
+    block-size: 39px;
+
+    background-color: #2a282800;
+    
+    border: 3px solid #707070;
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 14px;
+    color: #707070;
+    text-decoration: none;
+
+    cursor: pointer;
+}

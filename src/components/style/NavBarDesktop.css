@@ -2,12 +2,7 @@
     inline-size: 100%;
     block-size: 100%;
 
-    transform: translateY(-500px);
-
-    animation-name: NavBarContainerEntry;
-    animation-duration: 500ms;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease;
+   
     
 }
 
@@ -157,11 +152,3 @@
 
 }
 
-@keyframes NavBarContainerEntry {
-    0%{
-        transform: translateY(-500px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
-}

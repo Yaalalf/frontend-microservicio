@@ -1,0 +1,36 @@
+.ErrorModal{
+    block-size: 100vh;
+    inline-size: 100vw;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: grid;
+    place-items: center;
+
+    z-index: 100;
+
+    background-color: #393939a1;
+
+
+}
+
+.ErrorModal .ErrorModalContainer {
+    inline-size: 535px;
+    block-size: 251px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.ErrorModal .ErrorModalContainer p{
+
+    font-size: 20px;
+    font-weight: 600;
+    color: #D96464;
+
+}

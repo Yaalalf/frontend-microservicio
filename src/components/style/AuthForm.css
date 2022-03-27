@@ -1,0 +1,79 @@
+.AuthForm{
+    block-size: 100vh;
+    inline-size: 100vw;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: grid;
+    place-items: center;
+
+    z-index: 100;
+
+    background-color: #393939a1;
+
+
+}
+
+.AuthForm form{
+    inline-size: 535px;
+    block-size: 451px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.AuthForm form label{
+    inline-size: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.AuthForm form label:first-of-type{
+    margin-block-end: 48px;
+}
+
+.AuthForm form label:last-of-type{
+    margin-block-end: 64px;
+}
+
+
+.AuthForm form label span{
+
+    display: inline-block;
+    inline-size: 200px;
+
+    font-size: 16px;
+    font-weight: 900;
+    color: #707070;
+    text-align: center;
+}
+
+.AuthForm form label input{
+
+    inline-size: 225px;
+    display: inline-block;
+
+    border: none;
+    border-block-end: 2px solid #707070;
+    outline: none;
+
+
+    background-color: #50434300;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #504343;
+    text-align: center;
+
+}
+
+.AuthForm form .ButtonAceptar{
+    margin-block-start: 40px;
+    margin-block-end: 24px;
+}

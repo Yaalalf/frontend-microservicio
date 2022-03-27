@@ -1,0 +1,54 @@
+ .SectionAuth{
+    inline-size: 100%;
+    block-size: 174px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 6px #00000021;
+}
+
+ .SectionAuth > p{
+    inline-size: 90%;
+
+    padding: 16px 0px 24px 32px;
+
+
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 22px;
+    color: #575757;
+}
+
+ .SectionAuth .Auth{
+    inline-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-block-end: 24px;
+}
+
+ .SectionAuth .Auth p{
+    inline-size: auto;
+
+    margin-inline-start: 32px;
+
+
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 22px;
+    color: #D96464;
+}
+
+.SectionAuth .Auth p.IsAuth{
+
+    color: #74D964;
+}
+
+ .SectionAuth .Auth .Button{
+
+margin-left: 48px;
+}
+
